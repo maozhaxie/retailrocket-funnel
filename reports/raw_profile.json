@@ -1,0 +1,31 @@
+{
+  "raw_rows": 2756101,
+  "event_counts": {
+    "view": 2664312,
+    "addtocart": 69332,
+    "transaction": 22457
+  },
+  "unique_visitors": 1407580,
+  "unique_items": 235061,
+  "distinct_nonempty_transaction_ids": 17672,
+  "min_timestamp_ms": 1430622004384,
+  "max_timestamp_ms": 1442545187788,
+  "min_time_utc": "2015-05-03T03:00:04.384000+00:00",
+  "max_time_utc": "2015-09-18T02:59:47.788000+00:00",
+  "missing_by_column": {
+    "transactionid": 2733644
+  },
+  "invalid_required_fields_or_event": 0,
+  "purchase_rows_missing_transaction_id": 0,
+  "checks": {
+    "event_counts_reconcile": true,
+    "matches_original_v2_raw_count": true,
+    "matches_original_v2_event_counts": true
+  },
+  "limits": [
+    "This profile is before deduplication; duplicate sensitivity is a later project task.",
+    "NULL transactionid on view/addtocart is valid, not a reason to delete events.",
+    "Transaction rows are item-level events; distinct transaction IDs are a different metric.",
+    "First seen in this log does not establish the visitor's registration date."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "Retailrocket recommender system dataset",
+  "publisher": "Retailrocket / Roman Zykov (Kaggle listing)",
+  "dataset_version": 2,
+  "source_page": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
+  "download_endpoint": "https://www.kaggle.com/api/v1/datasets/download/retailrocket/ecommerce-dataset/events.csv?datasetVersionNumber=2",
+  "license": "CC BY-NC-SA 4.0 (original dataset listing)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "verified_at_utc": "2026-11-04T07:25:09.062522+00:00",
+  "file": "data/raw/events.csv",
+  "bytes": 94237913,
+  "sha256": "3745aa83238b1e6d44d8fda209807899f420084398f94ddf745f3cbcfecbf9e7",
+  "schema": [
+    "timestamp",
+    "visitorid",
+    "event",
+    "itemid",
+    "transactionid"
+  ],
+  "transformation": "Original events.csv extracted unchanged from official version-2 download"
+}
